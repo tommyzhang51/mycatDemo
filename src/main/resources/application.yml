@@ -6,8 +6,8 @@ server:
 spring:
   datasource:
     name: dataSource
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:mysql://localhost:8066/postgresmycat?characterEncoding=UTF-8&useSSL=false&autoReconnect=true&rewriteBatchedStatements=true
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:8066/postgresmycat
     username: root
     password: 123456
 mybatis:
